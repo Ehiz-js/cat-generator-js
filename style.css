@@ -1,0 +1,63 @@
+body {
+	font: Arial, sans-serif;
+	font-weight: bold;
+	margin: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: hsla(0, 0%, 0%, 0.3);
+}
+.appCard {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	background: linear-gradient(
+		45deg,
+		hsla(300, 96%, 44%, 0.885),
+		hsl(300, 90%, 32%)
+	);
+	padding: 25px 30px;
+	padding-top: 10px;
+	border: none;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.481);
+}
+.header {
+	background: linear-gradient(
+		270deg,
+		hsl(300, 96%, 43%, 0.885),
+		hsl(300, 83%, 30%, 0.6)
+	);
+	color: rgba(255, 255, 255, 0.848);
+	margin: 20px;
+	border-radius: 10px;
+	padding: 5px 5px;
+	box-shadow: 2px 2px 2px hsla(0, 0%, 100%, 0.415);
+}
+
+.button {
+	font-size: 1.5rem;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	font-weight: bold;
+	background-color: hsl(0, 0%, 90%);
+	color: hsl(0, 0%, 10%);
+	border: none;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px hsla(0, 0%, 100%, 0.448);
+	cursor: pointer;
+}
+.button:hover {
+	color: hsl(0, 0%, 90%);
+	background-color: hsl(0, 0%, 10%);
+	box-shadow: 4px 4px 4px hsla(0, 0%, 100%, 0.448);
+}
+.catImage {
+	width: 300px;
+	height: 300px;
+	border: 6px ridge hsl(0, 0%, 90%, 0.8);
+	box-shadow: 2px 2px 2px hsla(0, 0%, 100%, 0.448);
+}
