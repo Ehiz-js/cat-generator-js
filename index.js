@@ -1,3 +1,5 @@
+//CAT GENERATOR PROGRAM BY EHIZ
+
 const button = document.querySelector(".button");
 const catDisplay = document.querySelector(".catDisplay");
 const apiUrl = "https://api.thecatapi.com/v1/images/search";
