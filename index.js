@@ -1,4 +1,4 @@
-//CAT GENERATOR PROGRAM BY EHIZ
+//CAT GENERATOR PROGRAM BY EHIZ-JS
 
 const button = document.querySelector(".button");
 const catDisplay = document.querySelector(".catDisplay");
